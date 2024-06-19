@@ -1,0 +1,10 @@
+b16:
+c = input()
+x = ord(c)
+if c == 'z' or c == 'Z':
+    print('a')
+elif x < 90:
+    print(chr(x+32+1))
+else:
+    print(chr(x+1))
+
