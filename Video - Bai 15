@@ -7,4 +7,9 @@ elif x < 90:
     print(chr(x+32+1))
 else:
     print(chr(x+1))
+OR
+# else:
+    tmp = ord(c)
+    tmp += 1
+    print(chr(tmp).lower())
 
